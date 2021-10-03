@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navbar</title>
+  <!-- Font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <html>
+
+  <head>
+    <title>Todo App</title>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+  </head>
+
+  <body>
+
+    <div class="containerPrincipal">
+      <div class="buttonNewSelectLayout" onclick="openContainerSelect()">
+        <div><span class="count"></span>Selecione, adicione e-mails</div>
+      </div>
+
+      <div class="containerSelectLayout">
+        <div class="boxAddOnEmail">
+          <input class="inputAddOnEmail" type="email" name="email"
+          placeholder="Novo e-mail" required />
+          <button class="buttonSelectAddOn">+</button>
+        </div>
+        <div class="selectLayoutAddOnEmail">
+          <ul class="containerTotalSelected">
+            <!-- LOCAL DOS <li> -->
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="containerPrincipalTwo">
+      <div class="buttonNewSelectLayout">
+        <div><span class="count"></span>Selecione, adicione e-mails</div>
+      </div>
+
+      <div class="containerSelectLayout">
+        <div class="boxAddOnEmail">
+          <input class="inputAddOnEmail" type="email" name="email"
+          required placeholder="Novo e-mail">
+          <button class="buttonSelectAddOn">+</button>
+        </div>
+        <div class="selectLayoutAddOnEmail">
+          <ul class="containerTotalSelected">
+            <!-- LOCAL DOS <li> -->
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  <!-- JS -->
+  <script src="app.js"></script>
+</body>
+
+</html>

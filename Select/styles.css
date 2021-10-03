@@ -1,0 +1,116 @@
+.containerPrincipal {
+	position: absolute;
+	width: 230px;
+}
+
+.buttonNewSelectLayout{
+	
+	border: 1px solid #eee;
+    padding: 11px 17px;
+    color: #666;
+    cursor: pointer;
+}
+
+.containerSelectLayout {
+	display: none;
+	position: absolute;
+	border: 1px solid #eee;
+}
+
+.containerSelectLayout .boxAddOnEmail{
+	display: flex;
+	padding: 0;
+	position: relative;
+}
+
+.containerSelectLayout .inputAddOnEmail{
+	width: 100%;
+	padding: 0 16px;
+	height: 36px;
+	border: 1px solid #eee;
+}
+
+.containerSelectLayout .buttonSelectAddOn{
+	border: none;
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	background: blue;
+	color: #fff;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.containerSelectLayout .listSelectAddOn{
+	display: flex;
+	gap: 3px;
+	border: 1px solid #eee;
+	padding: 11px 0;
+}
+
+.buttonSelectDelete {
+	border: none;
+	background: #eee;
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+}
+
+.selectLayoutAddOnEmail {
+	display: contents;
+}
+
+.containerTotalSelected {
+	min-width: 230px;
+	display: inline-block;
+}
+
+.open {
+	display: contents;
+}
+
+html{
+   background: darkgray;
+}
+
+
+.remove{
+	background-image: url("https://cdns.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-x-mark-1.png");
+	background-size: 8px;
+	background-position: center;
+   background-repeat: no-repeat;
+	padding: 8px;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 0;
+}
+
+.inputBodySelect {
+	order: -1;
+}
+
+ul{
+	list-style-type: none;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 0px;
+}
+
+
+li{
+	font-size: 16px;
+	color: #000;
+	display: flex;
+	gap: 5px;
+	border: 1px solid #eee;
+	padding: 11px 11px;
+	justify-content: space-between;
+	background-color: gray;
+}
+
+
+
+
